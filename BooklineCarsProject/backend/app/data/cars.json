@@ -1,0 +1,48 @@
+[
+    {
+        "id" : 1,
+        "Name" : "Mitsubishi",
+        "BookedDates" : [
+            "06/11/2006",
+            "07/11/2006",
+            "08/11/2006"
+        ]
+    },
+    {
+        "id" : 2,
+        "Name" : "Twingo",
+        "BookedDates" : [
+            "19/01/2007",
+            "22/08/2007",
+            "30/12/2007"
+        ]
+    },
+    {
+        "id" : 3,
+        "Name" : "FordFiesta",
+        "BookedDates" : []
+    },
+    {
+        "id" : 4,
+        "Name" : "Toyo 4x4",
+        "BookedDates" : [
+            "06/01/2017",
+            "07/01/2017",
+            "08/01/2017",
+            "09/01/2017",
+            "10/01/2017"
+        ]
+    },
+    {
+        "id" : 5,
+        "Name" : "Ford-12",
+        "BookedDates" : [
+            "15/06/1996"
+        ]
+    },
+    {
+        "id" : 6,
+        "Name" : "Ferrari",
+        "BookedDates" : []
+    }
+]
