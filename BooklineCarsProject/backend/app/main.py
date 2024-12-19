@@ -4,7 +4,7 @@ import uvicorn
 import logging
 
 from app.utils import config
-
+from app.presentation.api_v1.cars import cars_router
 
 # Configure basic config of logger
 logging.basicConfig(level=logging.DEBUG,
@@ -30,6 +30,12 @@ async def root():
 @app.get("/api/v1/task")
 async def example_task():
     return {"message": "success"}
+
+app.include_router(
+    cars_router,
+    prefix="/api/v1",
+    tags=["cars"],
+)
 
 # Routers
 if __name__ == "__main__":
