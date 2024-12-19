@@ -7,6 +7,7 @@ Cuenta también con un sistema de logging por archivos.
 La API tiene dos endpoints, un GET de coches disponibles a servervar en una fecha en especifico, y un POST para realizar la reserva sobre un coche deseado. Estos datos se almacenan de manera local empleando un archivo JSON. 
 
 Los endpoints son los siguientes: 
+    
     - /api/v1/cars/available
         Tipo: GET 
         Toma: Parametro por query specified_date de tipo DATETIME.DATE
