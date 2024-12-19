@@ -1,31 +1,32 @@
 [
     {
-        "id" : 1,
-        "Name" : "Mitsubishi",
-        "BookedDates" : [
+        "id": 1,
+        "Name": "Mitsubishi",
+        "BookedDates": [
             "2006-06-11",
             "2006-07-11",
-            "2006-08-11"
+            "2006-08-11",
+            "2006-10-11"
         ]
     },
     {
-        "id" : 2,
-        "Name" : "Twingo",
-        "BookedDates" : [
+        "id": 2,
+        "Name": "Twingo",
+        "BookedDates": [
             "2007-01-19",
             "2007-08-22",
             "2007-12-30"
         ]
     },
     {
-        "id" : 3,
-        "Name" : "FordFiesta",
-        "BookedDates" : []
+        "id": 3,
+        "Name": "FordFiesta",
+        "BookedDates": []
     },
     {
-        "id" : 4,
-        "Name" : "Toyo 4x4",
-        "BookedDates" : [
+        "id": 4,
+        "Name": "Toyo 4x4",
+        "BookedDates": [
             "2017-01-06",
             "2017-01-07",
             "2017-01-08",
@@ -34,15 +35,15 @@
         ]
     },
     {
-        "id" : 5,
-        "Name" : "Ford-12",
-        "BookedDates" : [
+        "id": 5,
+        "Name": "Ford-12",
+        "BookedDates": [
             "2025-01-01"
         ]
     },
     {
-        "id" : 6,
-        "Name" : "Ferrari",
-        "BookedDates" : []
+        "id": 6,
+        "Name": "Ferrari",
+        "BookedDates": []
     }
 ]
