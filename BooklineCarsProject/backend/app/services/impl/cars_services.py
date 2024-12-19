@@ -39,4 +39,4 @@ async def create_car_booking(booking_date: datetime.datetime, car_name: str):
             await cars_repository.write_json_cars_file(cars_list)
             return True
         i += 1
-    return True
+    return False
