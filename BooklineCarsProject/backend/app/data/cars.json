@@ -21,7 +21,9 @@
     {
         "id": 3,
         "Name": "FordFiesta",
-        "BookedDates": []
+        "BookedDates": [
+            "2007-10-11"
+        ]
     },
     {
         "id": 4,

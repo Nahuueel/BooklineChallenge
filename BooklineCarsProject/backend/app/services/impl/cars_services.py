@@ -1,10 +1,13 @@
 import datetime
 from typing import List
+import logging
 
 from app.infrastructure.impl import cars_repository
 from app.domain.cars_model import car_model
 from app.services.contracts import cars_dtos
+
 async def retrive_available_cars(specified_available_date: datetime.date):
+    logging.debug("retrive_available_cars executing...")
     cars_list = await cars_repository.read_json_cars_file()
 
     available_cars_list = list()
@@ -22,6 +25,8 @@ async def retrive_available_cars(specified_available_date: datetime.date):
     return available_cars_list
 
 async def create_car_booking(booking_date: datetime.datetime, car_name: str):
+    logging.debug("create_car_booking executing...")
+    
     cars_list = await cars_repository.read_json_cars_file()
 
     i = 0

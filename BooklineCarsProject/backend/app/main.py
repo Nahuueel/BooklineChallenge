@@ -27,10 +27,6 @@ async def db_session_middleware(request: Request, call_next):
 async def root():
     return {"message": "Hello World"}
 
-@app.get("/api/v1/task")
-async def example_task():
-    return {"message": "success"}
-
 app.include_router(
     cars_router,
     prefix="/api/v1",
